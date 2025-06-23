@@ -1,0 +1,92 @@
+/* Background*/
+body {
+  font-family: sans-serif;
+  background-image: url("Homepage.jpg");
+  background-size: cover;
+  background-position: center;
+  color:white
+}
+
+/* header */
+.header {
+  text-align: center;
+}
+
+/*bio*/
+.headshot {
+  display: flex;
+  gap: 20px;
+  align-items: self-start;
+
+}
+
+.image img {
+  width: 200px;
+  height: auto;
+  border: 2px solid #ccc;
+}
+
+.text{
+  max-width: 600px;
+}
+
+/* Section */
+section {
+  background-color: rgba(10, 76, 38, 0.9);
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 800px;
+}
+
+/* Zebra-striped table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #2e6e3e;
+}
+thead {
+  background-color: #c5e3cb;
+}
+tbody tr:nth-child(odd) {
+  background-color: #f5fdf6;
+}
+tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+th, td {
+  padding: 10px;
+}
+
+/* Quote */
+.quote div {
+  font-style: italic;
+  background-color: #785336;
+  border-left: 5px solid #2e3e1e;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 700px;
+}
+
+/* Links */
+a {
+  color: #60b074;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #155623;
+  text-decoration: underline;
+}
+
+.external-links {
+  list-style-type: none;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  padding-left: 0;
+}
+.external-links li {
+  display: inline;
+ 
+}
