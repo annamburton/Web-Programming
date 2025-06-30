@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Background */
+body {
+  background-image: url(background.png);
+  font-family: sans-serif;
+  font-size: 10pt;
+  color: black;
+}
+
+/* Banner */
+.banner {
+  background-image: url(banner.png);
+  height: 50px;
+  text-align: center;
+  background-color: black;
+}
+
+.banner img {
+  vertical-align: middle;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  font-size: 24pt;
+  margin: 10px 0;
+}
+
+/* Main */
+#main {
+  width: 800px;
+  margin: auto;
+  border: 4px solid gray;
+}
+
+/*section*/
+.table {
+  display: table;
+  width: 100%;
+}
+
+.row {
+  display: table-row;
+}
+
+.cell {
+  display: table-cell;
+  vertical-align: top;
+}
+
+/* Left column */
+.left-column {
+  width: 550px;
+  padding: 10px;
+  background-image: url("backgroundReview.png"); /* use a light grid background */
+  background-repeat: repeat;
+}
+
+/* Right column */
+.right-column {
+  width: 200px;
+  background-color: #A2B964;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.overview-img {
+  width: 100%;
+}
+
+/* Rating section */
+#rating {
+  background-image: url("rottenbackground.png");
+  background-size: cover;
+  background-repeat: repeat-x;
+  color: white;
+  padding: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 0px;
+}
+
+#rating img {
+  height: 60px; /* Adjust as needed */
+}
+
+#score {
+  display: inline-block;
+  line-height: 1.2em;
+}
+
+
+#score .percent {
+  font-size: 48pt;
+  font-weight: bold;
+  color: red;
+}
+
+.review-count {
+  font-size: 8pt;
+}
+
+/* Reviews */
+#review {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.review {
+  width: 47%;
+  background-color: #E1D697;
+  border: 2px solid gray;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.icon {
+  float: left;
+  margin-right: 5px;
+}
+
+.quote {
+  font-weight: bold;
+}
+
+.critic {
+  width: 47%;
+  margin-bottom: 10px;
+  font-size: 9pt;
+  line-height: 1.2em;
+}
+
+.critic em {
+  font-size: 8pt;
+  font-style: italic;
+}
+
+/* Footer */
+.footer-bar{
+  display: block;
+  background-color: #A2B964;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+  width: 136.4%;
+}
